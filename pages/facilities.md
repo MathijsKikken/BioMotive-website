@@ -1,22 +1,32 @@
 ---
-
 layout: page
+title: "Plans and infrastructure"
 permalink: /faciliteis/
-
-header:
-    image_fullwidth: "banners/scanners.png"
-
-title: "7T MRI facilities"
-subheadline: 'Toys for researchers'
-
-tags: facilities
-
+header: false
 ---
 
-Our facility includes a 7T human whole body MRI system with several different consoles, a 9.4T and 7T preclinal MRI system with an identical console, RF coil labs, mechanical lab, RF cage for preparing 14T MRI (excluding magnet), and a room preped for a 7T METAscan.
+BioMotive is developing MRI research infrastructure at
+UMC Utrecht and the University of Twente to study the
+human body during movement.
 
-If you want to know more you can find additional information below.
+## University of Twente
 
-### Our cacilities
+Preparations are underway for the MRI facility in Enschede.
+Updates on installation and research activities will be
+shared here.
 
-{% include list-pages tag="facilities" %}
+## UMC Utrecht
+
+Work in Utrecht currently focuses on identifying a suitable
+location for the planned MRI facility.
+
+## Future developments
+
+This page will track the development of both facilities,
+including key milestones and planned research capabilities.
+
+## Imaging data
+
+We are exploring how imaging data could be made available
+for research. Details about available datasets and access
+procedures will be added when these plans are established.
