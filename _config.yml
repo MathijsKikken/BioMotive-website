@@ -8,25 +8,26 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'High field MRI'
+title: 'BioMotive'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'your slogan goes here'
+slogan: 'Imaging the human body in motion'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: >- # this means to ignore newlines
-             Needs a text
+description: >-
+  BioMotive develops MRI research infrastructure to study
+  the human body in motion, with facilities at UMC Utrecht
+  and the University of Twente.
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Website by <a href="https://www.QMRITools.com">Martijn Froeling</a> &#128170; <br> Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a> &#128170;</p>'
-
+credits: 'Built with <a href="https://jekyllrb.com/">Jekyll</a>'
 # Main author of the website
 # See > authors.yml
-author: MFroeling
+author: MKikken
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: "https://www.highfieldmri.nl"
+url: "https://www.biomotive.org"
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content

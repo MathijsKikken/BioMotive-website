@@ -1,6 +1,9 @@
-- menu_name: "Resources"
+- menu_name: "Institutions"
 
-- name: "QMRITools.com"
-  url: "http://www.QMRITools.com/"
-  class: ""
-  title: "Quantitative MRI processing"
+- name: "UMC Utrecht"
+  url: "https://www.umcutrecht.nl/"
+  title: "UMC Utrecht"
+
+- name: "University of Twente"
+  url: "https://www.utwente.nl/"
+  title: "University of Twente"

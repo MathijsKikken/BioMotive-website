@@ -1,33 +1,143 @@
 ---
-
-title: "High field MRI group Utrecht"
+layout: default
+title: "BioMotive"
 permalink: /
-
-layout: frontpage
-homepage: true
-
-header:
-    image_fullwidth: "banners/scanner.png"
-
-widget1:
-  title: "Research"
-  url: /research/
-  image: front1.png
-  text: 'Our research lines incorporate inventions of MR technology to be able to see the unseen for advancing medicine. Our clinical research focus areas are cancer, dementia, cardiovascular, stroke and MSK.'
-  
-widget2:
-  title: "People"
-  url: /about/team/
-  image: front2.png
-  text: 'We are a team of about 50 researchers, engaged in medical science and eager to use advanced MR technology. In close collaboration with our clinical partners, we setup and ruby -vexecute novel research projects, mostly with the help of external funds. Through a large network of international academic and industrial collaborators we have embraced team science and aim to maximize advancing medical imaging.'
-  
-widget3:
-  title: "Facilities"
-  url: /faciliteis/
-  image: front3.png
-  text: 'Our facility includes a 7T human whole body MRI system with several different consoles, a 9.4T and 7T preclinal MRI system with an identical console, RF coil labs, mechanical lab, RF cage for preparing 14T MRI (excluding magnet), and a room preped for a 7T METAscan.'
-
+header: false
+style: |
+  .biomotive-home {
+    max-width: 1100px;
+    margin: 36px auto 64px;
+    padding: 0 24px;
+  }
+  .biomotive-hero {
+    margin: 0 0 36px;
+  }
+  .biomotive-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .biomotive-home figcaption {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #666;
+  }
+  .biomotive-home h1,
+  .biomotive-home h2,
+  .biomotive-home h3 {
+    font-family: "Lato", sans-serif;
+    color: #153b60;
+  }
+  .biomotive-about {
+    margin-bottom: 44px;
+  }
+  .biomotive-about p {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  .biomotive-news-item {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 28px;
+    padding: 26px 0;
+    border-top: 1px solid #ddd;
+  }
+  .biomotive-news-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .biomotive-news-item time {
+    display: block;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .biomotive-news-item h3 {
+    font-size: 24px;
+    margin: 0 0 12px;
+  }
+  .biomotive-news-item h3 a {
+    color: inherit;
+  }
+  .biomotive-news-item p {
+    margin-bottom: 12px;
+  }
+  .biomotive-read-more {
+    font-weight: bold;
+  }
+  @media (max-width: 640px) {
+    .biomotive-news-item {
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+  }
 ---
 
-<div align="center"><h1>Welcome to the high field MRI website!</h1></div>
-<div align="center">Welcome to the website of the high field MRI research group of the University Medical Center Utrecht</div>
+<main class="biomotive-home">
+
+  <figure class="biomotive-hero">
+    <img
+      src="{{ '/assets/images/MainPage.png' | relative_url }}"
+      alt="BioMotive — imaging the biomechanics of the internal human body in motion"
+      width="1280"
+      height="720"
+    >
+    <figcaption>
+      Concept illustration of the BioMotive vision.
+    </figcaption>
+  </figure>
+
+  <section class="biomotive-about" aria-labelledby="about-title">
+    <h1 id="about-title">About BioMotive</h1>
+    <p>
+      BioMotive is developing MRI research facilities to study
+      the human body in motion. With facilities at UMC Utrecht
+      and the University of Twente, the consortium aims to
+      reveal how movement and posture affect muscles, organs
+      and metabolism.
+    </p>
+  </section>
+
+  <section aria-labelledby="news-title">
+  <h2 id="news-title">News</h2>
+
+  {% for post in site.categories.news %}
+    <article class="biomotive-news-item">
+
+      <a href="{{ post.url | relative_url }}"
+         aria-label="{{ post.title | escape }}">
+        <img
+          src="{{ post.news_image | relative_url }}"
+          alt="{{ post.news_image_alt | escape }}"
+          loading="lazy"
+        >
+      </a>
+
+      <div>
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+          {{ post.date | date: "%-d %B %Y" }}
+        </time>
+
+        <h3>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+
+        <p>{{ post.summary | escape }}</p>
+
+        <a class="biomotive-read-more"
+           href="{{ post.url | relative_url }}">
+          Read more &rarr;
+        </a>
+      </div>
+
+    </article>
+  {% else %}
+    <p>Project news will appear here soon.</p>
+  {% endfor %}
+</section>
+
+</main>
