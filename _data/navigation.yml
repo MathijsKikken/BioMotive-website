@@ -2,51 +2,18 @@
   url: /
   side: left
 
-- title: Research
+- title: Projects
   url: /research/
-  side: left     
-  dropdown:
-  - title: Metabolic Imaging Group
-    url: /research/metabolic/
-  - title: Platform and Methods Group
-    url: /research/platform/
-  - title: Vascular Brain Imaging Group
-    url: /research/vascular/
-  - title: Pre-clinical Imaging Group
-    url: /research/preclinical/
-  - title: RF and Safety Group
-    url: /research/RF/
-  - title: Gradient Group
-    url: /research/gradient/
-
-- title: About us
-  url: /about/
   side: left
-  dropdown:
-  - title: Research team
-    url: /about/team/
-  - title: Photos
-    url: /about/photos/
-  - title: Dissertations
-    url: /about/thesis/
-  - title: Interships
-    url: /about/intern/
-  - title: Job opportunities
-    url: /about/jobs/
 
-- title: facilities
+- title: Plans
   url: /faciliteis/
   side: left
-  dropdown:
-  - title: High field scanners
-    url: /facilities/scanners/
-  - title: Hardware and equipment
-    url: /facilities/hardware/ 
-  - title: RF Coil and Mechanics Lab
-    url: /facilities/coillab/ 
-  - title: Software and tools
-    url: /facilities/software/ 
- 
+
+- title: People
+  url: /about/team/
+  side: left
+
 - title: Contact
   url: /contact/
   side: left

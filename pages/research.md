@@ -1,19 +1,14 @@
 ---
-
 layout: page
+title: "Ongoing projects"
 permalink: /research/
-header: 
-  image_fullwidth: "banners/scanner.png"
-
-title: "7T research in Utrecht"
-subheadline: 'What do we do'
-
+header: false
 ---
 
-Our research lines incorporate inventions of MR technology to be able to see the unseen for advancing medicine. Our clinical research focus areas are cancer, dementia, cardiovascular, stroke and MSK.
+BioMotive brings together researchers at UMC Utrecht and the
+University of Twente to study the human body in motion.
 
-The high field MRI group of the University Medical Center Utrecht comprises the following research groups:
+This page will present ongoing projects, their research aims,
+the people involved and their progress.
 
-### Our research groups
-
-{% include list-pages tag="groups" %}
+Further project information will be added as it becomes available.
