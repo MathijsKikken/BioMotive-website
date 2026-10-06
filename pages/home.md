@@ -16,8 +16,8 @@ widget1:
   text: 'Our research lines incorporate inventions of MR technology to be able to see the unseen for advancing medicine. Our clinical research focus areas are cancer, dementia, cardiovascular, stroke and MSK.'
   
 widget2:
-  title: "About"
-  url: /about/
+  title: "People"
+  url: /about/team/
   image: front2.png
   text: 'We are a team of about 50 researchers, engaged in medical science and eager to use advanced MR technology. In close collaboration with our clinical partners, we setup and ruby -vexecute novel research projects, mostly with the help of external funds. Through a large network of international academic and industrial collaborators we have embraced team science and aim to maximize advancing medical imaging.'
   
