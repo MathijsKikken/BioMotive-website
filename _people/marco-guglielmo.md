@@ -3,6 +3,6 @@ layout: person
 title: "Marco Guglielmo"
 role: "TBC"
 order: 4
-photo: ""
+photo: "/assets/images/people/marco-guglielmo.jpg"
 header: false
 ---
