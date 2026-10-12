@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<main class="row t30">
+  <div class="small-12 medium-10 medium-centered columns">
+
+    <p>
+      <a href="{{ '/about/team/' | relative_url }}">
+        &larr; Back to People
+      </a>
+    </p>
+
+    <div class="row">
+      <div class="small-12 medium-4 columns">
+        {% if page.photo and page.photo != "" %}
+          <img
+            src="{{ page.photo | relative_url }}"
+            alt="{{ page.title | escape }}"
+            style="display:block; width:100%; height:auto; margin-bottom:24px;"
+          >
+        {% else %}
+          <div style="background:#eef2f5; padding:60px 20px; text-align:center; color:#596b79; margin-bottom:24px;">
+            Photo to follow
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="small-12 medium-8 columns">
+        <h1>{{ page.title }}</h1>
+        <p><strong>{{ page.role }}</strong></p>
+
+        {% assign biography = content | strip_html | strip %}
+        {% if biography != "" %}
+          {{ content }}
+        {% else %}
+          <p>A personal introduction will be added soon.</p>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+</main>

@@ -251,3 +251,8 @@ asciidoctor:
     source-highlighter: coderay
     coderay-css: style
     icons: font
+
+collections:
+  people:
+    output: true
+    permalink: /people/:name/

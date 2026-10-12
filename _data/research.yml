@@ -1,0 +1,28 @@
+- title: "Cardiovascular diseases"
+  url: /research/cardiovascular/
+  icon: heart
+  description: >-
+    Studying cardiovascular function in relation to posture
+    and movement, with applications in heart failure and
+    hereditary cardiovascular conditions.
+  members: []
+
+- title: "Musculoskeletal system"
+  url: /research/musculoskeletal/
+  icon: movement
+  description: >-
+    Investigating how muscles and joints function during
+    movement, with applications ranging from muscle disorders
+    and sports injuries to osteoarthritis.
+  members: []
+
+- title: "Muscle metabolism and digestion"
+  url: /research/metabolism-digestion/
+  icon: metabolism
+  description: >-
+    Exploring muscle metabolism and digestive function,
+    including research into metabolic and neuromuscular
+    disorders.
+  members:
+    - jeanine-prompers
+    - mathijs-kikken
