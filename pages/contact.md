@@ -1,42 +1,110 @@
 ---
-
 layout: page
-permalink: /contact/
-header: no
-
 title: "Contact"
-subheadline: 'Get in contact with the team'
-
+permalink: /contact/
+header: false
+show_meta: false
+style: |
+  .biomotive-contact-form {
+    margin-top: 28px;
+  }
+  .biomotive-contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #153b60;
+  }
+  .biomotive-contact-form input,
+  .biomotive-contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font: inherit;
+    padding: 12px;
+    border: 1px solid #ccd5dd;
+    border-radius: 4px;
+  }
+  .biomotive-contact-form textarea {
+    min-height: 180px;
+    resize: vertical;
+  }
+  .biomotive-contact-form button {
+    background: #153b60;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font: inherit;
+    cursor: pointer;
+  }
+  .biomotive-contact-form button:hover {
+    background: #244f78;
+  }
 ---
 
-Leave your message here and we will get in contact as soon as possible.
+<p>
+  Interested in BioMotive, our research or opportunities to collaborate?
+  Get in touch with the team at UMC Utrecht and the University of Twente
+  using the form below.
+</p>
 
 <form
-	name="ContactFrom"
-	method="POST"
-	id="contact-form"
-	class="contact-form"
-	data-netlify="true"
-	action="/contact/thanks/"
+  class="biomotive-contact-form"
+  name="biomotive-contact"
+  method="POST"
+  action="{{ '/contact/thank-you/' | relative_url }}"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
 >
-	<input type="hidden" name="subject" value="7T contact contact" />
-	<p class="form-row">
-		<label id="contact-form-name-label" for="contact-form-name" class="form-label">Name *</label>
-		<input type="text" name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" class="form-input"/>
-	</p>
-	<p class="form-row">
-		<label id="contact-form-email-label" for="contact-form-email" class="form-label">Email address *</label>
-		<input type="email" name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" class="form-input" required/>
-	</p>
-	<p class="form-row">
-		<label id="contact-form-message-label" for="contact-form-message" class="form-label">Message</label>
-		<textarea name="message" id="contact-form-message" aria-labelledby="contact-form-message-label" class="form-textarea" rows="2" required></textarea>
-	</p>
-	<p class="form-row"><div data-netlify-recaptcha="true" class="form-row"></div></p>
-	<p class="hidden" style="visibility: hidden; height: 0;">
-		<label id="contact-form-bot-label">Don't fill this out if you're human: <input name="" aria-labelledby="contact-form-bot-label" /></label>
-	</p>
-	<p class="form-row form-submit">
-		<button type="submit" class="button">Send</button>
-	</p>
+  <input type="hidden" name="form-name" value="biomotive-contact">
+
+  <p hidden>
+    <label>
+      Leave this field empty:
+      <input name="bot-field" tabindex="-1" autocomplete="off">
+    </label>
+  </p>
+
+  <p>
+    <label for="contact-name">Name</label>
+    <input
+      id="contact-name"
+      name="name"
+      type="text"
+      autocomplete="name"
+      required
+    >
+  </p>
+
+  <p>
+    <label for="contact-email">Email address</label>
+    <input
+      id="contact-email"
+      name="email"
+      type="email"
+      autocomplete="email"
+      required
+    >
+  </p>
+
+  <p>
+    <label for="contact-organisation">Organisation (optional)</label>
+    <input
+      id="contact-organisation"
+      name="organisation"
+      type="text"
+      autocomplete="organization"
+    >
+  </p>
+
+  <p>
+    <label for="contact-message">Message</label>
+    <textarea
+      id="contact-message"
+      name="message"
+      rows="7"
+      required
+    ></textarea>
+  </p>
+
+  <button type="submit">Send message</button>
 </form>
