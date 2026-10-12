@@ -5,7 +5,9 @@
     Studying cardiovascular function in relation to posture
     and movement, with applications in heart failure and
     hereditary cardiovascular conditions.
-  members: []
+  members:
+    - marco-guglielmo
+    - birgitta-velthuis
 
 - title: "Musculoskeletal system"
   url: /research/musculoskeletal/
@@ -14,7 +16,9 @@
     Investigating how muscles and joints function during
     movement, with applications ranging from muscle disorders
     and sports injuries to osteoarthritis.
-  members: []
+  members:
+    - martijn-froeling
+    - donnie-cameron
 
 - title: "Muscle metabolism and digestion"
   url: /research/metabolism-digestion/
@@ -25,4 +29,3 @@
     disorders.
   members:
     - jeanine-prompers
-    - mathijs-kikken
