@@ -1,0 +1,9 @@
+- menu_name: "Institutions"
+
+- name: "UMC Utrecht"
+  url: "https://www.umcutrecht.nl/"
+  title: "UMC Utrecht"
+
+- name: "University of Twente"
+  url: "https://www.utwente.nl/"
+  title: "University of Twente"

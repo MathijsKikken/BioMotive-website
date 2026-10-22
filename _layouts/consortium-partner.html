@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<main style="max-width: 850px; margin: 40px auto 64px; padding: 0 24px;">
+  <p>
+    <a href="{{ '/consortium/' | relative_url }}">
+      &larr; All consortium partners
+    </a>
+  </p>
+
+  {% if page.logo and page.logo != "" %}
+  <img
+    src="{{ page.logo | relative_url }}"
+    alt="{{ page.title | escape }} logo"
+    style="display: block; max-width: 100%; width: auto; height: auto; max-height: 160px; margin: 32px auto;"
+  >
+  {% endif %}
+
+  <h1 style="font-family: Lato, sans-serif; color: #153b60;">
+    {{ page.title | escape }}
+  </h1>
+
+  <h2 style="font-family: Lato, sans-serif; color: #153b60; font-size: 24px;">
+    Involvement in BioMotive
+  </h2>
+
+  {{ content }}
+</main>
