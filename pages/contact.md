@@ -12,7 +12,7 @@ style: |
     display: block;
     margin-bottom: 6px;
     font-weight: bold;
-    color: #153b60;
+    color: #13355F;
   }
   .biomotive-contact-form input,
   .biomotive-contact-form textarea {
@@ -28,7 +28,7 @@ style: |
     resize: vertical;
   }
   .biomotive-contact-form button {
-    background: #153b60;
+    background: #13355F;
     color: white;
     border: 0;
     border-radius: 4px;

@@ -12,7 +12,7 @@ style: |
   .biomotive-facilities h1,
   .biomotive-facilities h2 {
     font-family: Lato, sans-serif;
-    color: #153b60;
+    color: #13355F;
   }
   .facility-grid {
     display: grid;
@@ -32,7 +32,7 @@ style: |
   }
   .facility-card:hover,
   .facility-card:focus-visible {
-    border-color: #153b60;
+    border-color: #13355F;
     box-shadow: 0 4px 16px rgba(21, 59, 96, 0.12);
     color: #333;
     text-decoration: none;
@@ -52,7 +52,7 @@ style: |
     margin: 0 0 16px;
   }
   .facility-more {
-    color: #153b60;
+    color: #13355F;
     font-weight: bold;
   }
   @media (max-width: 700px) {

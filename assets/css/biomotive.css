@@ -1,0 +1,174 @@
+/* =========================================
+   BioMotive brand colours
+   ========================================= */
+
+:root {
+  --biomotive-navy: #13355F;
+  --biomotive-orange: #D1822E;
+}
+
+/* =========================================
+   Content headings
+   ========================================= */
+
+main h1,
+main h2,
+main h3,
+article h1,
+article h2,
+article h3 {
+  color: var(--biomotive-navy);
+}
+
+/* =========================================
+   Navigation
+   ========================================= */
+
+#navigation,
+.top-bar,
+.top-bar.expanded .title-area,
+.top-bar-section ul,
+.top-bar-section li:not(.has-form) a:not(.button) {
+  background: var(--biomotive-navy) !important;
+}
+
+/* Navigation text */
+.top-bar .name h1 a,
+.top-bar .toggle-topbar a,
+.top-bar-section li:not(.has-form) a:not(.button) {
+  color: white !important;
+}
+
+/* Active tab, hover and keyboard focus */
+.top-bar-section li.active:not(.has-form) > a:not(.button),
+.top-bar-section li:not(.has-form) > a:not(.button):hover,
+.top-bar-section li:not(.has-form) > a:not(.button):focus-visible {
+  background: var(--biomotive-orange) !important;
+  color: var(--biomotive-navy) !important;
+}
+
+/* Mobile menu icon */
+.top-bar .toggle-topbar.menu-icon a span::after {
+  box-shadow:
+    0 0 0 1px white,
+    0 7px 0 1px white,
+    0 14px 0 1px white;
+}
+
+/* =========================================
+   Homepage About panel
+   ========================================= */
+
+.biomotive-home .biomotive-about-panel {
+  background: var(--biomotive-navy);
+  color: white;
+  padding: 32px 36px;
+  margin: 32px 0 44px;
+  border-left: 6px solid var(--biomotive-orange);
+  border-radius: 6px;
+}
+
+.biomotive-home .biomotive-about-panel h1,
+.biomotive-home .biomotive-about-panel h2,
+.biomotive-home .biomotive-about-panel h3,
+.biomotive-home .biomotive-about-panel p {
+  color: white;
+}
+
+.biomotive-home .biomotive-about-panel h1,
+.biomotive-home .biomotive-about-panel h2 {
+  margin-top: 0;
+}
+
+.biomotive-home .biomotive-about-panel p:last-child {
+  margin-bottom: 0;
+}
+
+.biomotive-home .biomotive-about-panel a {
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: var(--biomotive-orange);
+  text-underline-offset: 4px;
+}
+
+/* =========================================
+   News
+   ========================================= */
+
+.biomotive-home #news-title::after {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 4px;
+  margin-top: 12px;
+  background: var(--biomotive-orange);
+}
+
+.biomotive-read-more,
+.facility-more,
+.consortium-more {
+  color: var(--biomotive-navy);
+}
+
+.biomotive-read-more:hover,
+.biomotive-read-more:focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--biomotive-orange);
+  text-underline-offset: 4px;
+}
+
+/* =========================================
+   Research and facility cards
+   ========================================= */
+
+.biomotive-topic-icon {
+  color: var(--biomotive-orange);
+}
+
+.biomotive-topic,
+.facility-card {
+  border-top: 4px solid var(--biomotive-navy);
+}
+
+.facility-card:hover,
+.facility-card:focus-visible,
+.consortium-card:hover,
+.consortium-card:focus-visible {
+  border-color: var(--biomotive-orange);
+}
+
+/* =========================================
+   Contact form
+   ========================================= */
+
+.biomotive-contact-form label {
+  color: var(--biomotive-navy);
+}
+
+.biomotive-contact-form button {
+  background: var(--biomotive-navy);
+  color: white;
+}
+
+.biomotive-contact-form button:hover,
+.biomotive-contact-form button:focus-visible {
+  background: var(--biomotive-orange);
+  color: var(--biomotive-navy);
+}
+
+.biomotive-contact-form input:focus,
+.biomotive-contact-form textarea:focus {
+  border-color: var(--biomotive-navy);
+  outline: 2px solid var(--biomotive-orange);
+  outline-offset: 2px;
+}
+
+/* =========================================
+   Mobile spacing
+   ========================================= */
+
+@media (max-width: 640px) {
+  .biomotive-home .biomotive-about-panel {
+    padding: 24px;
+  }
+}

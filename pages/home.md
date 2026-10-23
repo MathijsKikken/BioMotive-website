@@ -27,10 +27,7 @@ style: |
   .biomotive-home h2,
   .biomotive-home h3 {
     font-family: "Lato", sans-serif;
-    color: #153b60;
-  }
-  .biomotive-about {
-    margin-bottom: 44px;
+    color: #13355F;
   }
   .biomotive-about p {
     font-size: 18px;
@@ -89,8 +86,12 @@ style: |
     </figcaption>
   </figure>
 
-  <section class="biomotive-about" aria-labelledby="about-title">
+  <section
+    class="biomotive-about biomotive-about-panel"
+    aria-labelledby="about-title"
+  >
     <h1 id="about-title">About BioMotive</h1>
+
     <p>
       BioMotive is developing MRI research facilities to study
       the human body in motion. With facilities at UMC Utrecht
@@ -101,43 +102,47 @@ style: |
   </section>
 
   <section aria-labelledby="news-title">
-  <h2 id="news-title">News</h2>
+    <h2 id="news-title">News</h2>
 
-  {% for post in site.categories.news %}
-    <article class="biomotive-news-item">
+    {% for post in site.categories.news %}
+      <article class="biomotive-news-item">
 
-      <a href="{{ post.url | relative_url }}"
-         aria-label="{{ post.title | escape }}">
-        <img
-          src="{{ post.news_image | relative_url }}"
-          alt="{{ post.news_image_alt | escape }}"
-          loading="lazy"
+        <a
+          href="{{ post.url | relative_url }}"
+          aria-label="{{ post.title | escape }}"
         >
-      </a>
-
-      <div>
-        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
-          {{ post.date | date: "%-d %B %Y" }}
-        </time>
-
-        <h3>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-        </h3>
-
-        <p>{{ post.summary | escape }}</p>
-
-        <a class="biomotive-read-more"
-           href="{{ post.url | relative_url }}">
-          Read more &rarr;
+          <img
+            src="{{ post.news_image | relative_url }}"
+            alt="{{ post.news_image_alt | escape }}"
+            loading="lazy"
+          >
         </a>
-      </div>
 
-    </article>
-  {% else %}
-    <p>Project news will appear here soon.</p>
-  {% endfor %}
-</section>
+        <div>
+          <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+            {{ post.date | date: "%-d %B %Y" }}
+          </time>
+
+          <h3>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h3>
+
+          <p>{{ post.summary | escape }}</p>
+
+          <a
+            class="biomotive-read-more"
+            href="{{ post.url | relative_url }}"
+          >
+            Read more &rarr;
+          </a>
+        </div>
+
+      </article>
+    {% else %}
+      <p>Project news will appear here soon.</p>
+    {% endfor %}
+  </section>
 
 </main>

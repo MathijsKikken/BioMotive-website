@@ -12,7 +12,7 @@ style: |
   .biomotive-research h1,
   .biomotive-research h2 {
     font-family: "Lato", sans-serif;
-    color: #153b60;
+    color: #13355F;
   }
   .biomotive-research-intro {
     max-width: 800px;
@@ -34,7 +34,7 @@ style: |
     border-radius: 8px;
   }
   .biomotive-topic-icon {
-    color: #c47c25;
+    color: #D1822E;
     margin-bottom: 18px;
   }
   .biomotive-topic-icon svg {
@@ -76,7 +76,7 @@ style: |
   }
   .biomotive-topic-member a {
     display: block;
-    color: #153b60;
+    color: #13355F;
   }
   .biomotive-topic-member a:hover,
   .biomotive-topic-member a:focus {

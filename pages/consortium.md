@@ -5,10 +5,10 @@ permalink: /consortium/
 header: false
 style: |
   .consortium-page { max-width: 1100px; margin: 40px auto 64px; padding: 0 24px; }
-  .consortium-page h1, .consortium-page h2 { font-family: Lato, sans-serif; color: #153b60; }
+  .consortium-page h1, .consortium-page h2 { font-family: Lato, sans-serif; color: #13355F; }
   .consortium-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 32px; }
-  .consortium-card { display: flex; flex-direction: column; align-items: center; padding: 24px 16px; border: 1px solid #dce3e9; border-radius: 8px; background: white; text-align: center; color: #153b60; text-decoration: none; }
-  .consortium-card:hover, .consortium-card:focus-visible { border-color: #153b60; box-shadow: 0 4px 16px rgba(21,59,96,.12); text-decoration: none; }
+  .consortium-card { display: flex; flex-direction: column; align-items: center; padding: 24px 16px; border: 1px solid #dce3e9; border-radius: 8px; background: white; text-align: center; color: #13355F; text-decoration: none; }
+  .consortium-card:hover, .consortium-card:focus-visible { border-color: #13355F; box-shadow: 0 4px 16px rgba(21,59,96,.12); text-decoration: none; }
   .consortium-logo-frame { height: 100px; width: 100%; display: flex; align-items: center; justify-content: center; }
   .consortium-logo {
     display: block;

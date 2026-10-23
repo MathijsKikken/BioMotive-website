@@ -12,7 +12,7 @@ style: |
   .biomotive-people h1,
   .biomotive-people h2 {
     font-family: "Lato", sans-serif;
-    color: #153b60;
+    color: #13355F;
   }
   .biomotive-people-grid {
     display: grid;
