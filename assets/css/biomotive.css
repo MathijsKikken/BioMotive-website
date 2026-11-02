@@ -20,40 +20,7 @@ article h3 {
   color: var(--biomotive-navy);
 }
 
-/* =========================================
-   Navigation
-   ========================================= */
-
-#navigation,
-.top-bar,
-.top-bar.expanded .title-area,
-.top-bar-section ul,
-.top-bar-section li:not(.has-form) a:not(.button) {
-  background: var(--biomotive-navy) !important;
-}
-
-/* Navigation text */
-.top-bar .name h1 a,
-.top-bar .toggle-topbar a,
-.top-bar-section li:not(.has-form) a:not(.button) {
-  color: white !important;
-}
-
-/* Active tab, hover and keyboard focus */
-.top-bar-section li.active:not(.has-form) > a:not(.button),
-.top-bar-section li:not(.has-form) > a:not(.button):hover,
-.top-bar-section li:not(.has-form) > a:not(.button):focus-visible {
-  background: var(--biomotive-orange) !important;
-  color: var(--biomotive-navy) !important;
-}
-
-/* Mobile menu icon */
-.top-bar .toggle-topbar.menu-icon a span::after {
-  box-shadow:
-    0 0 0 1px white,
-    0 7px 0 1px white,
-    0 14px 0 1px white;
-}
+/* The navigation colours (navy bar, orange hover and active item) are set with theme_colors in _config.yml. */
 
 /* =========================================
    Homepage About panel
@@ -170,5 +137,60 @@ article h3 {
 @media (max-width: 640px) {
   .biomotive-home .biomotive-about-panel {
     padding: 24px;
+  }
+}
+/* =========================================
+   People and consortium partner pages
+   ========================================= */
+
+.person-page,
+.partner-page {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.person-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 2rem;
+}
+
+.person-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.person-photo-missing {
+  background: #eef2f5;
+  padding: 60px 20px;
+  text-align: center;
+  color: #596b79;
+  margin-bottom: 24px;
+}
+
+.partner-page {
+  max-width: 850px;
+}
+
+.partner-logo {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 160px;
+  margin: 32px auto;
+}
+
+.partner-page h1,
+.partner-page h2 {
+  color: var(--biomotive-navy);
+}
+
+@media (max-width: 640px) {
+  .person-grid {
+    grid-template-columns: 1fr;
   }
 }
