@@ -46,11 +46,8 @@ urlimg: '/assets/images/'
 # Logo size is 600x80 pixels
 logo: "logo.png"
 
-# Plugins
-plugins:
-    - jekyll-asciidoc
-    - jekyll-gist
-    - jekyll-paginate
+# Shared theme (https://github.com/mfroeling/my-sites-theme)
+theme: my-sites-theme
 
 
 #       ____              _             __  _
@@ -60,8 +57,6 @@ plugins:
 #   /_/    \__,_/\__, /_/_/ /_/\__,_/\__/_/\____/_/ /_/
 #               /____/
 #
-paginate: 5                      # Paginates all X entries
-paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
 
 # Theme works best with Kramdown (using the table of contents function)
@@ -88,13 +83,6 @@ language: 'en'
 
 # Used › default.html front-matter and compress.html
 # Options › http://jch.penibelst.de
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  profile: false
-  ignore:
-    envs: [development]
 
 
 #
@@ -196,9 +184,6 @@ socialmedia:
 #   /____/\__,_/____/____/      More › http://jekyllrb.com/docs/assets/#sassscss
 #
 
-sass:
-    sass_dir : _sass
-    style    : compressed
 
 
 #       ___                __      __  _
@@ -244,13 +229,6 @@ google_analytics_tracking_id: G-1TE8F340KN
 #
 #
 
-asciidoctor-enabled: false
-asciidoctor:
-  description: 
-  attributes:
-    source-highlighter: coderay
-    coderay-css: style
-    icons: font
 
 collections:
   people:
@@ -259,3 +237,20 @@ collections:
   partners:
     output: true
     permalink: /consortium/:name/
+
+# Theme settings (see https://github.com/mfroeling/my-sites-theme)
+nav_first: true             # menu bar on top
+default_banner: false       # no logo banner on pages without their own header image
+about_url: /about/team/     # target of the More link in the footer
+custom_css: /assets/css/biomotive.css
+theme_colors:
+  accent: "#488aaf"
+  accent_dark: "#13355f"
+  bar: "#13355f"
+  bar_text: "#ffffff"
+  bar_hover: "#d1822e"
+  bar_hover_text: "#13355f"
+  bar_active: "#d1822e"
+  bar_active_text: "#13355f"
+  footer_bg: "#13355f"
+  heading_font: "Georgia, 'Times New Roman', serif"
