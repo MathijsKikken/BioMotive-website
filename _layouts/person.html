@@ -11,6 +11,11 @@ layout: default
     <div class="person-photo">
       {% if page.photo and page.photo != "" %}
         <img src="{{ page.photo | relative_url }}" alt="{{ page.title | escape }}">
+        {% if page.photo_credit %}
+          <p class="person-photo-credit">
+            {{ page.photo_credit | escape }}
+          </p>
+        {% endif %}
       {% else %}
         <div class="person-photo-missing">Photo to follow</div>
       {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: person
 title: "Birgitta Velthuis"
-role: "TBC"
+role: "Cardiovascular Radiologist"
 order: 5
 photo: "/assets/images/people/birgitta-velthuis.png"
 header: false

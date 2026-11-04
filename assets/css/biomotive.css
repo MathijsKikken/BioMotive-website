@@ -194,3 +194,11 @@ article h3 {
     grid-template-columns: 1fr;
   }
 }
+
+.person-photo-credit {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #666;
+  text-align: center;
+}
