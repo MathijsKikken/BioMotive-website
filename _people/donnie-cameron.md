@@ -1,7 +1,7 @@
 ---
 layout: person
 title: "Donnie Cameron"
-role: "Musculoskeletal Use Case Lead"
+role: "Lead Musculoskeletal Use Case"
 order: 7
 photo: "/assets/images/people/donnie-cameron.png"
 header: false

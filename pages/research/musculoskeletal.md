@@ -10,12 +10,21 @@ comments: false
 [← All research topics]({{ '/research/' | relative_url }})
 
 Muscles, bones and joints work together to support posture and movement.
-BioMotive aims to study these structures during movement and under
-physical loading.
+BioMotive aims to study their structure and function during physical
+loading, combining MRI with measurements of movement and force.
 
-## Research focus
+## Planned use cases
 
-Our ambition is to investigate how muscles and joints function in
-conditions closer to everyday activity. Potential applications include
-muscular diseases, sports injuries and osteoarthritis, with a focus on
-understanding changes in movement and tissue mechanics.
+- **Musculoskeletal biomechanics:** studying how tissues respond to
+  static and dynamic loading.
+- **Muscles in motion:** linking muscle architecture to movement
+  and force production.
+- **Osteoarthritis:** investigating joint function under load.
+- **Hamstring injuries:** studying muscle structure and function in
+  upright positions.
+- **Pelvic floor function:** investigating how posture and loading
+  affect pelvic support, including in prolapse.
+- **Military sports medicine:** investigating exercise-related
+  musculoskeletal complaints.
+
+[Contact us about research opportunities]({{ '/contact/' | relative_url }})

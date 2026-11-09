@@ -202,3 +202,29 @@ article h3 {
   color: #666;
   text-align: center;
 }
+
+.biomotive-use-cases {
+  margin: 48px 0;
+}
+
+.biomotive-use-cases figure {
+  margin: 24px 0 0;
+}
+
+.biomotive-use-cases img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.biomotive-use-cases figcaption {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.consortium-page article.consortium-card:hover {
+  border-color: #dce3e9;
+  box-shadow: none;
+}

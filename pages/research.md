@@ -122,9 +122,11 @@ style: |
   <h1>Research</h1>
 
   <p class="biomotive-research-intro">
-    BioMotive focuses on three research themes, connecting
-    MRI technology with questions about the human body
-    in motion.
+    Movement, posture and physical loading influence how our bodies
+    function. BioMotive connects MRI technology with research into
+    cardiovascular health, musculoskeletal biomechanics, and muscle
+    metabolism and digestion. The use cases below illustrate the
+    research that this infrastructure aims to support.
   </p>
 
   <div class="biomotive-topic-grid">
@@ -225,4 +227,45 @@ style: |
       </article>
     {% endfor %}
   </div>
+
+    <section class="biomotive-use-cases"
+          aria-labelledby="use-cases-title">
+    <h2 id="use-cases-title">Potential research applications</h2>
+
+    <p>
+      Our research themes are closely connected. Studying the body in
+      active conditions can help reveal how movement, circulation,
+      metabolism and digestion influence one another.
+    </p>
+
+    <figure>
+      <img
+        src="{{ '/assets/images/biomotive-use-cases.png' | relative_url }}"
+        alt="Overview of BioMotive research applications across cardiovascular
+            health, musculoskeletal biomechanics, metabolism and digestion."
+        loading="lazy"
+      >
+      <figcaption>
+        Examples of research applications that BioMotive aims to support.
+      </figcaption>
+    </figure>
+  </section>
+
+  <section aria-labelledby="research-access-title">
+    <h2 id="research-access-title">Use BioMotive for your research</h2>
+
+    <p>
+      We welcome enquiries from academic researchers, clinicians and
+      industry partners, including those outside the consortium.
+      Contact us to discuss your proposed study, technical requirements,
+      anticipated availability and access costs.
+    </p>
+
+    <p>
+      <a class="biomotive-read-more"
+        href="{{ '/contact/' | relative_url }}">
+        Discuss your research with us &rarr;
+      </a>
+    </p>
+  </section>
 </main>

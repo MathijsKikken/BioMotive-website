@@ -27,11 +27,24 @@ style: |
 
 <main class="consortium-page">
   <h1>Consortium</h1>
-  <p>BioMotive brings together partners to develop MRI infrastructure and research into the human body in motion. Select a partner to learn more about their involvement.</p>
+  <p>
+    BioMotive brings together universities, university medical centres
+    and partners in healthcare, rehabilitation, nutrition and sport
+    from across the Netherlands.
+  </p>
+
+  <p>
+    The consortium combines expertise in MRI physics and engineering
+    with cardiovascular research, muscle physiology, biomechanics,
+    metabolism and food digestion. By developing the infrastructure
+    together, partners can connect imaging methods with research
+    questions from their own fields and create new collaborations
+    across disciplines.
+  </p>
   <div class="consortium-grid">
     {% assign partners = site.partners | sort: "order" %}
     {% for partner in partners %}
-    <a class="consortium-card" href="{{ partner.url | relative_url }}">
+    <article class="consortium-card">
       <div class="consortium-logo-frame" aria-hidden="true">
         {% if partner.logo and partner.logo != "" %}
         <img
@@ -45,8 +58,7 @@ style: |
         {% endif %}
       </div>
       <h2>{{ partner.title | escape }}</h2>
-      <span class="consortium-more">Read more &rarr;</span>
-    </a>
+    </article>
     {% endfor %}
   </div>
   <p style="margin-top: 32px;">BioMotive is funded by NWO.</p>

@@ -21,11 +21,15 @@ style: |
 
 ## University of Twente
 
-The 0.5 Tesla Paramed scanner will enable MRI in different body
-positions, including lying, sitting and standing. Its open design
-allows researchers to study the body under natural weight-bearing
-conditions.
+The 0.5T Paramed upright MRI system will support imaging in different
+body positions, including lying, sitting and standing. Its open design
+allows researchers to investigate how gravity and weight-bearing
+influence anatomy and function.
 
-The scanner will support research into the effects of posture and
-loading on anatomy and function. It will also provide a platform
-for preparatory research for the 3T walk-in-bore system.
+The facility will support studies of posture and loading, alongside
+the development of MRI-compatible equipment and experimental
+protocols. Experience gained with this system will also inform
+the development of the 3T walk-in-bore facility at UMC Utrecht.
+
+Interested in using this facility?
+[Contact us to discuss your study and anticipated availability.]({{ '/contact/' | relative_url }})

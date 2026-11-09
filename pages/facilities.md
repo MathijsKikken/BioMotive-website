@@ -69,8 +69,23 @@ style: |
   <h1>Facilities</h1>
 
   <p>
-    BioMotive is developing two complementary MRI facilities to study
-    the human body in different positions, under load and during movement.
+    BioMotive is developing two complementary open MRI facilities.
+    Their designs provide space to investigate how posture,
+    weight-bearing and movement affect the human body.
+  </p>
+
+  <p>
+    The 0.5T upright system at the University of Twente will support
+    studies in different body positions and under natural loading.
+    The planned 3T walk-in-bore system at UMC Utrecht will provide
+    additional room for exercise, with higher signal sensitivity
+    for fast imaging and metabolic measurements.
+  </p>
+
+  <p>
+    Together, the facilities will support the development of MRI
+    methods and compatible equipment for studying the body in
+    active conditions.
   </p>
 
   <div class="facility-grid">
@@ -82,6 +97,10 @@ style: |
       >
       <h2>0.5T upright MRI</h2>
       <p>University of Twente</p>
+      <p>
+        Open MRI for studying anatomy and function in different positions
+        and under weight-bearing conditions.
+      </p>
       <span class="facility-more">Read more &rarr;</span>
     </a>
 
@@ -93,6 +112,10 @@ style: |
       >
       <h2>3T walk-in-bore MRI</h2>
       <p>UMC Utrecht</p>
+      <p>
+        A planned high-field system for imaging movement and investigating
+        metabolism during physical activity.
+      </p>
       <span class="facility-more">Read more &rarr;</span>
     </a>
   </div>

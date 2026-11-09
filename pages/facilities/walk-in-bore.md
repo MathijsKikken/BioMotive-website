@@ -21,11 +21,18 @@ style: |
 
 ## UMC Utrecht
 
-The planned 3 Tesla walk-in-bore MRI system is being designed with
-space for participants to stand and perform exercise inside the
-scanner. This will enable research into the body during movement
-and physical loading.
+The planned 3T walk-in-bore MRI system is being designed with an
+approximately two-metre-high passage, providing room for participants
+to stand and perform controlled movements or exercise during imaging.
 
 Its higher magnetic field strength offers greater signal sensitivity,
-supporting fast imaging and the detection of metabolites to study
-muscle metabolism alongside movement.
+supporting fast imaging and MR spectroscopy to investigate metabolism.
+This will allow researchers to relate changes in tissue structure and
+function to the body's response to physical activity.
+
+The facility will also support the development of MRI-compatible
+exercise equipment and measurements of movement, force and
+physiological responses alongside imaging.
+
+Interested in developing a study for this facility?
+[Contact us to discuss your research ideas.]({{ '/contact/' | relative_url }})

@@ -93,11 +93,27 @@ style: |
     <h1 id="about-title">About BioMotive</h1>
 
     <p>
-      BioMotive is developing MRI research facilities to study
-      the human body in motion. With facilities at UMC Utrecht
-      and the University of Twente, the consortium aims to
-      reveal how movement and posture affect muscles, organs
-      and metabolism.
+      BioMotive is developing a national research infrastructure with two
+      complementary open MRI systems: a 0.5T upright scanner at the
+      University of Twente and a planned 3T walk-in-bore scanner at
+      UMC Utrecht.
+    </p>
+
+    <p>
+      By providing more space for different body positions and movement,
+      these facilities will enable researchers to study the body under
+      conditions closer to everyday life, including upright posture,
+      weight-bearing and physical exercise. Research spans cardiovascular
+      health, musculoskeletal biomechanics, and muscle metabolism and
+      digestion.
+    </p>
+
+    <p>
+      Interested in using BioMotive for your own research?
+      We welcome enquiries from researchers within and outside the
+      consortium.
+      <a href="{{ '/contact/' | relative_url }}">Contact us to discuss
+      your research ideas, access and scanner time.</a>
     </p>
   </section>
 

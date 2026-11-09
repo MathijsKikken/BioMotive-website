@@ -9,13 +9,21 @@ comments: false
 
 [← All research topics]({{ '/research/' | relative_url }})
 
-Alongside movement, BioMotive aims to investigate the processes that
-supply and use energy in the body, from muscle metabolism to digestive
-function.
+Posture and activity influence how we digest food and how our muscles
+use energy. BioMotive aims to combine imaging and MR spectroscopy
+to investigate these processes under more natural conditions.
 
-## Research focus
+## Planned use cases
 
-Potential research includes studying how muscles use energy during
-activity and recovery in metabolic or neuromuscular disorders.
-Imaging digestive movement and function is another area of interest,
-including applications in gastrointestinal disorders.
+- **Digestion:** studying stomach function and food processing
+  in upright positions.
+- **Nutrient absorption and metabolism:** investigating how posture
+  influences the availability and use of nutrients.
+- **Neuromuscular disorders in children:** studying muscle weakness,
+  energy metabolism and exercise intolerance.
+- **Systemic rheumatic autoimmune disease:** relating changes in
+  muscle metabolism to changes in tissue structure.
+- **Metabolic syndrome in young people:** investigating alterations
+  in muscle metabolism and function.
+
+[Contact us about research opportunities]({{ '/contact/' | relative_url }})
